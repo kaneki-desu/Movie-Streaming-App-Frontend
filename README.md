@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 "# Movie-Streaming-Project" 
 "# Movie-Streaming-App-Frontend" 
 "# Movie-Streaming-App-Frontend" 
+"# Movie-Streaming-App-Frontend" 
