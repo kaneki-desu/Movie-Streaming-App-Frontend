@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kaneki-desu.github.io/Movie-Streaming-Project",
+  "homepage": "https://kaneki-desu.github.io/Movie-Streaming-App-Frontend",
   "name": "client",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy":" gh-pages -d build",
+    "deploy": " gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -17,9 +17,9 @@
       "react-app",
       "react-app/jest"
     ],
-    "rules":{
-      "no-unused-vars" : 0
-}
+    "rules": {
+      "no-unused-vars": 0
+    }
   },
   "browserslist": {
     "production": [
@@ -79,6 +79,7 @@
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1",
