@@ -1,16 +1,17 @@
 {
-  "homepage": "https://kaneki-desu.github.io/Movie-Streaming-App-Frontend/",
+  
   "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "eject": "react-scripts eject" 
   },
   "eslintConfig": {
     "extends": [
