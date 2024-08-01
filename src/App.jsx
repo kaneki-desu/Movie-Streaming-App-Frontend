@@ -21,7 +21,7 @@ const theme = useSelector((state) => state.currentTheme.theme)
       <ThemeProvider theme={theme}>
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Home/>}/>
+              <Route path="/Movie-Streaming-App-Frontend" element={<Home/>}/>
               <Route path="/register" element={<Register/>}/>
               <Route path="/search" element={<Search/>}/>
               
